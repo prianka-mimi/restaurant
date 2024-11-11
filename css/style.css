@@ -1,0 +1,406 @@
+/* font style part start */
+@import url('https://fonts.googleapis.com/css2?family=Gentium+Book+Plus:ital,wght@0,400;0,700;1,400;1,700&family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Yeseva+One&display=swap');
+/* font style part end */
+
+* {
+    margin: 0;
+    padding: 0;
+    outline: 0;
+}
+
+html,
+body,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+a,
+i,
+li,
+ol,
+ul,
+header,
+nav,
+menu,
+div,
+span,
+strong,
+section,
+form,
+label,
+footer {
+    margin: 0;
+    padding: 0;
+    outline: 0;
+}
+
+ol,
+ul {
+    list-style: none;
+}
+
+a,
+a:hover {
+    text-decoration: none;
+}
+
+button:focus,
+a:focus,
+input:focus,
+textarea:focus {
+    outline: none;
+}
+
+html{
+    scroll-behavior: smooth;
+}
+
+/* fonts part start */
+
+/* .yeseva-one-regular {
+    font-family: "Yeseva One", serif;
+    font-weight: 400;
+    font-style: normal;
+  } */
+
+/* .lato-regular {
+    font-family: "Lato", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+  } */
+
+  /* .gentium-book-plus-bold {
+    font-family: "Gentium Book Plus", serif;
+    font-weight: 700;
+    font-style: normal;
+  } */
+
+  /* .open-sans-<uniquifier> {
+    font-family: "Open Sans", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: <weight>;
+    font-style: normal;
+    font-variation-settings:
+      "wdth" 100;
+  }   */
+
+/* fonts part end */
+
+/* ######################################################### */
+
+
+
+
+
+/* banner part start */
+#banner {
+    background: url(../img/banner.jpg);
+    padding-bottom: 110px;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+.navbar .navbar-nav .nav-item .custom_nav_link {
+    color: #ffffff;
+    font-size: 20px;
+
+    font-family: "Gentium Book Plus", serif;
+    /* font-weight: 700; */
+    padding: 0 20px;
+}
+
+.navbar .navbar-nav .nav-item:hover .custom_nav_link::after{
+    visibility: visible;
+}
+
+.navbar .navbar-nav .nav-item .nav-link i{
+    color: #dab33e;
+}
+
+.banner_content {
+    text-align: center;
+    margin-top: 40px;
+}
+
+.banner_content p {
+    font-size: 6rem;
+    color: #f7f7f6;
+    font-family: "Yeseva One", serif;
+}
+
+.banner_content img{
+    margin-bottom: 60px;
+    margin-top: 8px;
+}
+
+.banner_content .banner_option a{
+    padding: 22px 60px;
+    color: #f7f7f6;
+    margin: 0 12px;
+
+    font-size: 18px;
+    font-family: "Lato", sans-serif;
+}
+
+.banner_content .banner_option .book_table{
+    background-color:rgba(0,0,0,0.6);
+    border: 1px solid black;
+}
+
+.banner_content .banner_option .see_menu{
+    background-color:rgba(255,255,255,0.120);
+    border: 1px solid white;
+}
+
+/* banner part end */
+
+
+
+
+
+/* section 2 part start */
+#section2{
+    background: url(../img/section2-banner.jpg);
+    padding: 80px 0;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+.section2_content{
+    text-align: center;
+}
+
+.section2_content h4{
+    font-family: "Yeseva One", serif;
+    font-size: 36px;
+    color: #dab33e;
+    margin-top: 50px;
+}
+
+.section2_content p{
+    font-family: "Lato", sans-serif;
+    color: #4c4c4c;
+    margin-bottom: 50px;
+    padding: 0 30px;
+}
+
+.section2_content .img1{
+    margin: 20px 0;
+}
+/* section 2 part end */
+
+
+
+
+
+/* section 3 part start */
+#section3{
+    background: url(../img/section3-banner.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+.section3_content{
+    margin: 100px 0;
+    text-align: center;
+    background-color: rgba(0,0,0,0.6);
+    color: #f7f7f6;
+    padding: 80px;
+}
+
+.section3_content h4{
+    font-family: "Yeseva One", serif;
+    font-size: 36px;
+}
+
+.section3_content img{
+    margin: 20px 0;
+}
+
+.section3_content p{
+    font-family: "Lato", sans-serif;
+}
+/* section 3 part end */
+
+
+
+
+
+/* section 4 part start */
+#section4{
+    background: url(../img/section4-banner.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+
+    padding: 110px 0;
+}
+
+.content{
+    text-align: center;
+}
+
+.content h4{
+    font-family: "Yeseva One", serif;
+    font-size: 2.25rem;
+    color: #dab33e;
+}
+
+.content .img_line{
+    margin: 1rem;
+}
+
+.content .menu{
+    font-family: "Yeseva One", serif;
+    font-size: 1.31rem;
+    color: #dab33e;
+}
+
+.content p{
+    font-family: "Lato", sans-serif;
+    color: #4c4c4c;
+    text-align: left;
+}
+
+.content .list{
+    position: relative;
+    padding: 1rem;
+}
+
+.list .img_special {
+    position: absolute;
+    bottom: 11.5%;
+    left: 0%;
+}
+/* section 4 part end */
+
+
+
+
+
+/* section 5 part start */
+#section5{
+    background: url(../img/section5-banner.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+
+    padding: 110px 0;
+}
+
+.section5_content{
+    text-align: center;
+    background-color: rgba(0,0,0,0.8);
+    color: #f7f7f6;
+    padding: 60px;
+}
+
+.section5_content img{
+    margin: 20px 0;
+}
+
+.section5_content p{
+    font-family: "Gentium Book Plus", serif;
+    font-size: 22px;
+}
+
+.section5_content p sup i{
+    color: #999c9a;
+}
+/* section 5 part end */
+
+
+
+
+
+/* section 6 part start */
+#section6{
+    background: url(../img/section2-banner.jpg);
+    padding: 80px 0;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+.section6_content h4{
+    margin-top: 0!important;
+}
+
+.section6_content p{
+    margin-top: 0!important;
+    margin-bottom: 10px;
+}
+
+/* form part start */
+form label{
+    color: #dab33e;
+    font-family: "Open Sans", sans-serif;
+    font-weight: bold;
+    font-size: 14px;
+}
+
+form input{
+    padding: 5px 10px;
+    border: 1px solid #999c9a;
+    color: #999c9a;
+    font-family: "Open Sans", sans-serif;
+    font-style: italic;
+    width: 100%;
+}
+
+form input:focus{
+    border: 1px solid #dab33e;
+}
+
+form input::placeholder{
+    padding-left: 5px;
+    font-family: "Open Sans", sans-serif;
+    font-style: italic;
+}
+/* form part end */
+
+.book_now button{ 
+    color: #f7f7f6;
+    background-color: #dab33e;
+    padding: 10px 60px;
+    border: none;
+}
+/* section 6 part end */
+
+
+
+
+
+/* footer part start */
+footer{
+    background-color: #191919;
+    padding: 60px 0;
+    color: #f7f7f6;
+    text-align: center;
+}
+
+.footer_content h4{
+    font-family: "Yeseva One", serif;
+    font-size: 21px;
+}
+
+.footer_content p{
+    font-family: "Open Sans", sans-serif;
+    font-size: 14px;
+}
+
+.footer_content .img_design{
+    margin: 10px 0;
+}
+
+footer .footer_content ul .footer_icon a{
+    color: #f7f7f6;
+    padding: 5px;
+}
+/* footer part end */
